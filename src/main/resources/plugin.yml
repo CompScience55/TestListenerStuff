@@ -1,0 +1,16 @@
+name: UtilPlugin
+version: ${project.version}
+main: de.compsience.utilplugin.UtilPlugin
+api-version: 1.17
+authors: [ CompSience ]
+description: Adds fancy join and leave messages
+
+commands:
+  date:
+    description: Shows current date
+  smite:
+    description: Smites a player
+  troll:
+    description: trolls a player
+  segen:
+    description: gives player a hero of village effect for a specific time
